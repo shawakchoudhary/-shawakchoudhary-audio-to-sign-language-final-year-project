@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
@@ -63,20 +64,23 @@
         font-weight: bold;
       }
       .split {
-        height: 100%;
-        width: 50%;
-        position: fixed;
+        width:100%;
+        display: flex;
+        {% comment %} position: absolute; {% endcomment %}
         z-index: 1;
         top: 50;
-        overflow-x: hidden;
+        {% comment %} overflow-x: hidden; {% endcomment %}
       }
 
       .left {
+        width:50%;
         left: 15;
         border-right: 0px #090909 solid;
+
       }
 
       .right {
+        width:50%;
         right: 0;
         border-left: 1px #090909 solid;
       }
@@ -118,12 +122,51 @@
         font-size: 24px;
         font-family: "poppins";
         vertical-align: top;
+
       }
+
       .submit:hover {
         background-color: #ffffff;
         color: #090909;
         font-weight: bold;
       }
+
+      .search{
+        display: flex;
+      }
+
+      @media only screen and (max-width: 600px){
+        .split{
+          flex-direction:column;
+        }
+
+        .left{
+          width:100%;
+          height:50%;
+        }
+        .right{
+          width:100%;
+          height:50%;
+        }
+      }
+
+      @media only screen and (max-width: 1300px){
+        .search{
+          flex-direction:column;
+        }
+        .submit{
+          align-self:center;
+        }
+      }
+
+      @media only screen and (max-width: 880px){
+        .mytext{
+          width:60%;
+          align-self:center;
+        margin-left: 0px;
+        }
+      }
+
       .td {
         color: #090909;
         font-weight: bold;
@@ -131,7 +174,13 @@
         font-family: "poppins";
       }
 
-      body {
+      .video{
+        margin-top:2rem;
+        width:80%;
+        height:50%;
+      }
+
+      .body {
         background-color: #ffffff;
       }
 
@@ -204,7 +253,10 @@
       }
     </style>
     <title>Homepage</title>
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <div
     style="
@@ -215,7 +267,7 @@
       font-family: poppins;
     "
   >
-    <h1 align="center">Audio To Sign Language Tool</h1>
+    <h1 align="center">Speech To Sign Language Tool</h1>
   </div>
   <br />
   <body>
