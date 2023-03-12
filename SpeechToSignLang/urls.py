@@ -26,5 +26,4 @@ urlpatterns = [
     path('signup/',views.signup_view,name='signup'),
     path('animation/',views.animation_view,name='animation'),
     path('',views.home_view,name='home'),
-    path('animation/',views.animation_view,name='animation')
 ]
