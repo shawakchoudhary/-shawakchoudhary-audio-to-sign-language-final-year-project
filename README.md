@@ -12,7 +12,7 @@ A web application which takes in live audio speech recording as input, converts 
 
 > - Python >= 3.7
 > - Browser supports Web Speech API
-> - Download all required packages for python script audioToSignLang/views.py
+> - Download all required packages for python script SpeechToSignLang/views.py
 
 ## Installation Guide:
 
