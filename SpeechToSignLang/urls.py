@@ -1,4 +1,4 @@
-"""A2SL URL Configuration
+"""SpeechToSignLang URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.0/topics/http/urls/
@@ -26,5 +26,4 @@ urlpatterns = [
     path('signup/',views.signup_view,name='signup'),
     path('animation/',views.animation_view,name='animation'),
     path('',views.home_view,name='home'),
-    path('animation/',views.animation_view,name='animation')
 ]

@@ -9,12 +9,11 @@ using Blender 3D tool.
 
 
 
-
 ## Prerequisites
 
 >- Python >= 3.7
 >- Browser supports Web Speech API
->- Download all required packages for python script A2SL/views.py
+>- Download all required packages for python script SpeechToSignLang/views.py
 
 
 ## Installation Guide:
@@ -30,6 +29,5 @@ These instructions will get you download the project and running on your local m
 4. Sign up and start exploring.
 5. Click on mic button to record speech.
 6. Speech is going to processed and respective animated outputs are shown accordingly and it also support entered text manually.
-
 
 
