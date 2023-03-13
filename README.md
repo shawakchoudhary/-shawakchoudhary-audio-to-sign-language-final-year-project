@@ -12,7 +12,7 @@ using Blender 3D tool.
 
 >- Python >= 3.7
 >- Browser supports Web Speech API
->- Download all required packages for python script A2SL/views.py
+>- Download all required packages for python script SpeechToSignLang/views.py
 
 
 ## Installation Guide:
