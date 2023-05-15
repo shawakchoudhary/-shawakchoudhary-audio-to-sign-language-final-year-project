@@ -8,6 +8,7 @@ A web application which takes in live audio speech recording as input, converts 
 using Blender 3D tool.
 
 
+
 ## Prerequisites
 
 >- Python >= 3.7
@@ -28,6 +29,5 @@ These instructions will get you download the project and running on your local m
 4. Sign up and start exploring.
 5. Click on mic button to record speech.
 6. Speech is going to processed and respective animated outputs are shown accordingly and it also support entered text manually.
-
 
 
